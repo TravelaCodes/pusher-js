@@ -1,5 +1,5 @@
 {
-  "name": "pusher-js",
+  "name": "travela-pusher-js",
   "version": "8.0.2",
   "description": "Pusher Channels JavaScript library for browsers, React Native, NodeJS and web workers",
   "main": "dist/node/pusher.js",
