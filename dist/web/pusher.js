@@ -4528,11 +4528,11 @@ function getWebsocketHostFromCluster(cluster) {
     return "ws-" + cluster + ".pusher.com";
 }
 function shouldUseTLS(opts) {
-    if (runtime.getProtocol() === 'https:') {
-        return true;
-    }
-    else if (opts.forceTLS === false) {
+    if (opts.forceTLS === false) {
         return false;
+    }
+    else if (runtime.getProtocol() === 'https:') {
+        return true;
     }
     return true;
 }
